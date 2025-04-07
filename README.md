@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧪 Simulador de API REST – Projeto Didático Visual
 
-## Getting Started
+Este projeto simula o funcionamento de uma API REST de forma **didática e visual**, permitindo testar os principais métodos HTTP (POST, PUT, PATCH, DELETE) com feedback em tempo real, histórico de ações, modo escuro e interface interativa.
 
-First, run the development server:
+---
+
+## 🌐 Link do Projeto Online
+
+Acesse aqui o projeto publicado no Vercel:  
+🔗 [https://api-rest-simulador.vercel.app](https://api-rest-simulador.vercel.app)
+
+---
+
+## 💡 Funcionalidades
+
+- Enviar dados com **POST**
+- Atualizar completamente com **PUT**
+- Atualizar parcialmente com **PATCH**
+- Deletar registros com **DELETE**
+- Exibir resposta da API formatada
+- Mostrar **histórico de ações** com hora
+- Tooltips explicativos em cada botão
+- Mensagens de sucesso com animações
+- **Modo escuro (Dark Mode)** com toggle interativo
+
+---
+
+## 🧰 Tecnologias utilizadas
+
+- React + Next.js
+- Tailwind CSS
+- React Tooltip
+- Vercel (Deploy)
+
+---
+
+## 📦 Como rodar localmente
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone o repositório
+git clone https://github.com/RobertoMagabad/api-rest-simulador.git
+
+# Acesse a pasta do projeto
+cd api-rest-simulador
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+dnpm run dev
+
+# Acesse em:
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 👨‍💻 Autor
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Projeto criado por **Paulo Roberto Magalhães** como parte do estudo didático de APIs REST com foco em Front-End.  
+Repositório mantido para fins de aprendizado e demonstração de habilidades.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Licença
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT.
